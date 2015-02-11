@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+  <dependency id="DataAnnotationsExtensions" type="external" version="1.1.0.0" net="net451" />
+  <dependency id="Newtonsoft.Json" type="external" version="6.0.8" net="net451" />
+  <dependency id="nunit.framework" type="external" version="2.6.4" net="net451" />
+</dependencies>

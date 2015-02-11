@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryWithDependancies", "ClassLibraryWithDependancies\ClassLibraryWithDependancies.csproj", "{5033DA79-BACC-4269-94E7-0A78D1E7FA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherClassLibWithDependancies", "AnotherClassLibWithDependancies\AnotherClassLibWithDependancies.csproj", "{DFDAC005-C151-4CBA-A2DF-51E05543BCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "depfix", "depfix\depfix.csproj", "{619A6537-4535-41BE-9A0A-73F0FF1F6BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5033DA79-BACC-4269-94E7-0A78D1E7FA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5033DA79-BACC-4269-94E7-0A78D1E7FA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5033DA79-BACC-4269-94E7-0A78D1E7FA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5033DA79-BACC-4269-94E7-0A78D1E7FA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDAC005-C151-4CBA-A2DF-51E05543BCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDAC005-C151-4CBA-A2DF-51E05543BCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDAC005-C151-4CBA-A2DF-51E05543BCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDAC005-C151-4CBA-A2DF-51E05543BCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619A6537-4535-41BE-9A0A-73F0FF1F6BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619A6537-4535-41BE-9A0A-73F0FF1F6BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619A6537-4535-41BE-9A0A-73F0FF1F6BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619A6537-4535-41BE-9A0A-73F0FF1F6BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
