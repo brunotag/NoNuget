@@ -21,16 +21,16 @@ It contains
           - /net4.5	
 
 
-HYP (1) => not good (see the (b) implication)
+Hypothesis => not good (see the (b) implication)
 
 For each visual studio solution we have a solution level dependencies version config file which, for each dependency, describes which version has to be used.
 This implies that: 
 a) All the projects of that solution MUST use the same version for each dependency (LEGIT).
 b) A project is part of at most only one solution (NOT GOOD)
-- STOP -
+- STOP, not good-
 
 
-so, HYP (1) version 2 (good):
+so, Hypothesis version 2 (good):
 
 For each branch of each GitHub repository we have a branch level dependencies version config file which, for each dependency, describes which version has to be used.
 This implies that: 
